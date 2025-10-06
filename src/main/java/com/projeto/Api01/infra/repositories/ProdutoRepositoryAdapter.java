@@ -3,11 +3,13 @@ package com.projeto.Api01.infra.repositories;
 import com.projeto.Api01.application.port.ProdutoRepositoryPort;
 import com.projeto.Api01.domain.models.Produto;
 import com.projeto.Api01.infra.entities.ProdutoEntity;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+@Repository
 public class ProdutoRepositoryAdapter implements ProdutoRepositoryPort {
 
 
